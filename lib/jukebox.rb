@@ -40,5 +40,7 @@ def play(array)
 end
 
 def run 
+  help
+  puts "Please enter a command:"
   
 end 
