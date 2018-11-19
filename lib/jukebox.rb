@@ -39,6 +39,9 @@ def play(array)
     puts "Invalid input, please try again"
 end
 
+def exit_jukebox
+  puts "Goodbye"
+end
 def run 
   help
   puts "Please enter a command:"
