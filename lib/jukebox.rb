@@ -29,7 +29,10 @@ def play(array)
   input = gets.chomp()
   if input.class == Integer 
     if (input > 0) && (input < 10) == true 
-      
+      puts "Playing <song name>"
     else
+      puts 
+  elsif songs.include?(input) == true
+    
     
 end
