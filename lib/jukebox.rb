@@ -27,4 +27,9 @@ end
 def play(array)
   puts "Please enter a song name or number:"
   input = gets.chomp()
+  if input.class == Integer 
+    if (input > 0) && (input < 10) == true 
+      
+    else
+    
 end
