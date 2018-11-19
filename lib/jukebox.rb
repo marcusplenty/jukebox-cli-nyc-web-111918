@@ -23,3 +23,7 @@ def list(array)
     puts "#{i+1}. #{song}"
   end
 end
+
+def play(array)
+  
+end
