@@ -31,8 +31,10 @@ def play(array)
     if (input > 0) && (input < 10) == true 
       puts "Playing <song name>"
     else
-      puts 
+      puts "Invalid input, please try again"
+    end
   elsif songs.include?(input) == true
-    
-    
+    puts "Playing <song name>"
+  else
+    puts "Invalid input, please try again"
 end
