@@ -38,3 +38,7 @@ def play(array)
   else
     puts "Invalid input, please try again"
 end
+
+def run 
+  
+end 
