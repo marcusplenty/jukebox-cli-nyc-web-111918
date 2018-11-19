@@ -44,8 +44,23 @@ def exit_jukebox
 end
 
 def run 
-  help
+  command = "" 
+  while command  
   puts "Please enter a command:"
-  input2 = gets.chomp()
-  
+  command = gets.downcase.strip  
+  if command == 'list'
+      list(songs)
+  elsif command == 'play'
+      list(songs)
+      play(songs)
+  elsif command == 'help'
+        help 
+  elsif command == 'exit'
+        exit_jukebox
+        break 
+  else 
+      help 
+  end 
 end 
+
+
