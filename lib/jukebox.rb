@@ -29,12 +29,12 @@ def play(array)
   input = gets.chomp()
   if input.class == Integer 
     if (input > 0) && (input < 10) == true 
-      puts "Playing <song name>"
+      puts "Playing #{songs[input-1]}"
     else
       puts "Invalid input, please try again"
     end
   elsif songs.include?(input) == true
-    puts "Playing <song name>"
+    puts "Playing #{input}"
   else
     puts "Invalid input, please try again"
 end
