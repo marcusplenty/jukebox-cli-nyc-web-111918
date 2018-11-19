@@ -25,5 +25,6 @@ def list(array)
 end
 
 def play(array)
-  
+  puts "Please enter a song name or number:"
+  input = gets.chomp()
 end
