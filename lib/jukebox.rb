@@ -42,5 +42,5 @@ end
 def run 
   help
   puts "Please enter a command:"
-  
+  input2 = gets.chomp()
 end 
