@@ -20,5 +20,6 @@ end
 
 def list(array)
   array.each_with_index |song,i|
-  
+    puts "#{i}. "
+  end
 end
